@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahsiyn</title>
+    <style>
+       * { margin: 0; padding: 0; box-sizing: border-box; } html, body { overflow-x: hidden; } .hero { padding-top: 0; } .hero__container { max-width: 400px; margin: 0 auto; padding: 0 16px; position: relative; background-image: url(./images/bg.avif); background-repeat: no-repeat; background-size: cover; background-position: center; padding-bottom: 21px; display: flex; flex-direction: column; align-items: center; justify-content: center; } .hero__top { position: relative; } .hero__top img { position: absolute; right: -41px; top: 0; } .hero__top-card { max-width: 149px; width: 100%; padding: 8px 0 12px 13px; background-image: url(../b/images/heroBg.avif); background-repeat: no-repeat; background-position: center; background-size: cover; border-radius: 8px; position: relative; z-index: 3; margin-top: 15px; margin-bottom: 60px; display: flex; flex-direction: column; gap: 10px; margin-left: 130px; } .hero__top-card p { font-family: Roboto, sans-serif; font-weight: 400; font-size: 9px; line-height: 100%; text-align: center; } .line { max-width: 123px; width: 100%; height: 1px; background-color: black; } .hero__top-min { display: flex; align-items: center; gap: 3px; } .hero__top-min p { font-family: Roboto, sans-serif; font-weight: 600; font-size: 14px; line-height: 100%; } .hero__title { font-family: Roboto, sans-serif; font-weight: 700; font-size: clamp(21.5px, 6.7vw, 26px); margin-bottom: 3px; line-height: 113%; text-align: center; color: #212121; } .hero__title span { color: #3B6904; } .hero__images { max-width: 275px; width: 100%; height: auto; margin: 0 auto; display: flex; } .hero__btn { max-width: 314px; width: 100%; border-radius: 14px; padding: 19px 0; background: linear-gradient(90deg, #74C144 0%, #85D851 50%, #74C144 100%); box-shadow: 0px 4px 0px 0px #417123; color: white; font-family: Roboto, sans-serif; font-weight: 600; font-size: 24px; line-height: 113%; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center; text-align: center; border: none; cursor: pointer; margin-bottom: 16px; } .hero__gift { max-width: 358px; width: 100%; background-color: white; border: 0.5px solid #000000; border-radius: 8px; margin-bottom: 16px; padding: 5px 0 9px 0; gap: 5px; display: flex; align-items: center; justify-content: center; } .hero__gift img { max-width: clamp(65px, 20vw, 76px); width: 100%; height: auto; } .hero__gift-info h2 { font-family: Roboto, sans-serif; font-weight: 600; font-size: clamp(13.5px, 4.3vw, 16px); line-height: 113%; margin-bottom: 6px; } .hero__gift-info p { font-family: Roboto, sans-serif; font-weight: 400; font-size: clamp(12px, 4vw, 14px); line-height: 113%; } .hero__nav { max-width: 358px; width: 100%; background-color: white; border: 0.5px solid #000000; border-radius: 8px; padding: 15px 25px 24px 34px; margin-bottom: 12px; display: flex; flex-direction: column; gap: 22px; } .hero__nav li { display: flex; align-items: center; gap: 7px; } .hero__nav li p { font-family: Roboto, sans-serif; font-weight: 400; font-size: clamp(14px, 4.5vw, 16px); line-height: 113%; } @media (max-width:350px) { .hero__nav { padding: 15px 0 24px 10px; } .hero__iconBg1 { left: 100px; } .hero__iconBg2 { right: 90px; } .hero__gift { gap: 0; } }
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__top">
+                    <img src="../b/images/top.avif" loading="lazy" decoding="async" width="241" height="237" alt="logo">
+                </div>
+                <div class="hero__top-card">
+                    <div class="hero__top-min">
+                        <img src="../b/images/calendar.avif" loading="lazy" decoding="async" width="22" height="22"
+                            alt="calendar">
+                        <p>2-3-APREL</p>
+                    </div>
+                    <div class="hero__top-min">
+                        <img src="../b/images/clock.avif" loading="lazy" decoding="async" width="21" height="24"
+                            alt="calendar">
+                        <p>SOAT: 20:00</p>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="hero__top-min">
+                        <img src="../b/images/verfiyTop.avif" loading="lazy" decoding="async" width="22" height="22"
+                            alt="calendar">
+                        <p
+                            style="font-size: 11px; font-weight: 400; font-family: Roboto, sans-serif; text-align: start; line-height: 100%;">
+                            2 KUNLIK <br> BEPUL DARS</p>
+                    </div>
+                    <p>O’tkazib yubormang!</p>
+                </div>
+
+
+                <h1 class="hero__title"><span>QUR'ONNI QORIYALARDEK</span> <br> MUKAMMAL VA CHIROYLI <br> <span>O'QISH
+                        YO'LLARI</span></h1>
+                <img class="hero__images" src="./images/mainImg.avif" loading="lazy" decoding="async" width="275"
+                    height="142" alt="speaker">
+
+
+                <button class="hero__btn">BEPUL QATNASHISH</button>
+
+                <div class="hero__gift">
+                    <img src="./images/gift.avif" loading="lazy" decoding="async" width="76" height="73" alt="gift">
+                    <div class="hero__gift-info">
+                        <h2>QATNASHUVCHILARGA SOVG'A</h2>
+                        <p>“Qur'on yod olishda muhim bo'lgan <br> birinchi 5 qadam” maxsus darsligi</p>
+                    </div>
+                </div>
+
+                <ul class="hero__nav">
+                    <li>
+                        <img src="./images/verfiy.avif" loading="lazy" decoding="async" width="38" height="39"
+                            alt="icon">
+                        <p>Qur'onni chiroyli o'qish uchun <br> nimalarga e'tibor berish kerakligi <br> haqida
+                            gaplashamiz.</p>
+                    </li>
+                    <li>
+                        <img src="./images/verfiy.avif" loading="lazy" decoding="async" width="38" height="39"
+                            alt="icon">
+                        <p>Qur'on o'qishda kichik ko'ringan, <br> lekin muhim xatolarni ko'rib <br> chiqamiz.</p>
+                    </li>
+                    <li>
+                        <img src="./images/verfiy.avif" loading="lazy" decoding="async" width="38" height="39"
+                            alt="icon">
+                        <p>Arab tilida harflarning asl <br> maxrajlari qandayligini <br> o'rganasiz.</p>
+                    </li>
+                    <li>
+                        <img src="./images/verfiy.avif" loading="lazy" decoding="async" width="38" height="39"
+                            alt="icon">
+                        <p>Arab tilini o'rganishda eng muhim <br> asosiy qoidalarini bilib olasi
+                        </p>
+                    </li>
+                </ul>
+
+                <button class="hero__btn">BEPUL QATNASHISH</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
