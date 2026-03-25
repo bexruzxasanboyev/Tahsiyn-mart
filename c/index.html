@@ -53,7 +53,7 @@
                     height="142" alt="speaker">
 
 
-                <button class="hero__btn">БЕРУЛ КАТНАШИШ</button>
+                <button class="hero__btn registerBtn">БЕРУЛ КАТНАШИШ</button>
 
                 <div class="hero__gift">
                     <img src="../b/images/gift.avif" loading="lazy" decoding="async" width="76" height="73" alt="gift">
@@ -87,11 +87,14 @@
                     </li>
                 </ul>
 
-                <button class="hero__btn">БЕРУЛ КАТНАШИШ</button>
+                <button class="hero__btn registerBtn">БЕРУЛ КАТНАШИШ</button>
             </div>
         </section>
     </main>
 
+    <script defer>
+        document.addEventListener("DOMContentLoaded", (() => { document.querySelectorAll(".registerBtn").forEach((e => { e.addEventListener("click", (() => { "function" == typeof fbq && fbq("track", "CompleteRegistration") })) })) }));
+    </script>
 </body>
 
 </html>
